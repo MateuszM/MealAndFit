@@ -9,7 +9,7 @@
         ResizeMode="CanMinimize"
         Background="Transparent"
        
-        Height="600" Width="910">
+        Height="900" Width="1400">
     <Border Background="#272537"
              CornerRadius="20">
         <Grid>
@@ -35,6 +35,26 @@
                              Foreground="White"
                              FontSize="20"
                              Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="Meal Library"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="Exercise Library"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="DayPlan"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="Calendar"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
 
             <TextBox Width="250"
@@ -45,6 +65,10 @@
                      Margin="5"
                      Style="{StaticResource ModernTextBox}">
             </TextBox>
+            
+            <ContentControl Grid.Row="1"
+                            Grid.Column="1"
+                            Margin="10" />
         </Grid>
     </Border>
 </Window>

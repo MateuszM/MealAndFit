@@ -1,0 +1,12 @@
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\bin\Debug\net5.0\BussinesLayer.deps.json
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\bin\Debug\net5.0\BussinesLayer.dll
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\bin\Debug\net5.0\ref\BussinesLayer.dll
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\bin\Debug\net5.0\BussinesLayer.pdb
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\BussinesLayer.csproj.AssemblyReference.cache
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\BussinesLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\BussinesLayer.AssemblyInfoInputs.cache
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\BussinesLayer.AssemblyInfo.cs
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\BussinesLayer.csproj.CoreCompileInputs.cache
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\BussinesLayer.dll
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\ref\BussinesLayer.dll
+C:\Users\Bezimienny\source\repos\MealAndFitApp\BussinesLayer\obj\Debug\net5.0\BussinesLayer.pdb

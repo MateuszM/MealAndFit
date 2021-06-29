@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\App.xaml
-3193153075
+8-211219540
 
-738527009
-193-1891726104
-MainWindow.xaml;Themes\RadioButtonTheme.xaml;Themes\TextboxTheme.xaml;
+1330838616
+216497678679
+MainWindow.xaml;MVVM\View\CalendarView.xaml;MVVM\View\DayPlanView.xaml;MVVM\View\ExerciseView.xaml;MVVM\View\HomeView.xaml;MVVM\View\MealView.xaml;Themes\RadioButtonTheme.xaml;Themes\TextboxTheme.xaml;
 
-False
+True
 

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Infrastructure
+namespace BussinesLayer
 {
     public class Class1
     {
