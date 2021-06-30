@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\
 MealAndFitApp
 none
 false
 TRACE;DEBUG;NET;NET5_0;NETCOREAPP
-C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\App.xaml
-4276048403
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\App.xaml
+8-211219540
 
-7868332602
-216497678679
-MainWindow.xaml;MVVM\View\HomeView.xaml;Themes\RadioButtonTheme.xaml;Themes\TextboxTheme.xaml;
+11-698689158
+216-1309064998
+MainWindow.xaml;MVVM\View\CalendarView.xaml;MVVM\View\DayPlanView.xaml;MVVM\View\ExerciseView.xaml;MVVM\View\HomeView.xaml;MVVM\View\MealView.xaml;Themes\RadioButtonTheme.xaml;Themes\TextboxTheme.xaml;
 
 False
 

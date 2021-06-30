@@ -19,12 +19,18 @@
     <Compile Update="MVVM\View\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="MVVM\View\MealObject.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="MVVM\View\MealView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
     <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\Resources\MealTemplate.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\CalendarView.xaml">
@@ -37,6 +43,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\HomeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MVVM\View\MealObject.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="MVVM\View\MealView.xaml">

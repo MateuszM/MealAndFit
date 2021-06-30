@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bezimienny\\source\\repos\\MealAndFitApp\\BussinesLayer\\BussinesLayer.csproj": {}
+    "C:\\Users\\Bezimienny\\source\\repos\\MealAndFit\\BussinesLayer\\BussinesLayer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bezimienny\\source\\repos\\MealAndFitApp\\BussinesLayer\\BussinesLayer.csproj": {
+    "C:\\Users\\Bezimienny\\source\\repos\\MealAndFit\\BussinesLayer\\BussinesLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\MealAndFitApp\\BussinesLayer\\BussinesLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Bezimienny\\source\\repos\\MealAndFit\\BussinesLayer\\BussinesLayer.csproj",
         "projectName": "BussinesLayer",
-        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\MealAndFitApp\\BussinesLayer\\BussinesLayer.csproj",
+        "projectPath": "C:\\Users\\Bezimienny\\source\\repos\\MealAndFit\\BussinesLayer\\BussinesLayer.csproj",
         "packagesPath": "C:\\Users\\Bezimienny\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\MealAndFitApp\\BussinesLayer\\obj\\",
+        "outputPath": "C:\\Users\\Bezimienny\\source\\repos\\MealAndFit\\BussinesLayer\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
