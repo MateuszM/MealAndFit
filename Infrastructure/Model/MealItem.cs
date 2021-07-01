@@ -12,6 +12,7 @@ namespace Infrastructure.Model
         public string Name { get; set; }
         public List<Ingredients> Ingredients { get; set; }
         public int KCal { get; set; }
+        public int Mass { get; set; }
 
 
     }

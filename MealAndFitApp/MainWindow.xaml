@@ -55,6 +55,26 @@
                              Foreground="White"
                              FontSize="20"
                              Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="Add Meal"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="Add Item"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                    <RadioButton Content="Add Ingredient"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
+                <RadioButton Content="Add Exercise"
+                             Height="50"
+                             Foreground="White"
+                             FontSize="20"
+                             Style="{StaticResource MenuButtonTheme}"/>
             </StackPanel>
 
             <TextBox Width="250"
