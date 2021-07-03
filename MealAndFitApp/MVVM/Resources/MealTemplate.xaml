@@ -16,20 +16,7 @@
                     <ColumnDefinition Width="400" />
                 </Grid.ColumnDefinitions>
                 <Image Name="imgDynamicMeal" Grid.Column="0" Grid.Row="0" Stretch="Uniform" Margin="5" />
-                <Grid x:Name="IngredientsGrid" Grid.Row="0" Grid.Column="1">
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition>
-                        </ColumnDefinition>
-                        <ColumnDefinition>
-                        </ColumnDefinition>
-                    </Grid.ColumnDefinitions>
-                    <Grid.RowDefinitions>
-                        <RowDefinition>
-                        </RowDefinition>
-                    </Grid.RowDefinitions>
-                    <TextBlock Grid.Row="0" Grid.Column="0" Text="{Binding Path=MealItemName}"/>
-                    <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding Path=MealItemValue}"/>
-                </Grid>
+
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="Description:"/>
                 <TextBlock Grid.Row="1" Grid.Column="0" Text="{Binding Path=Kcal}"/>
             </Grid>
