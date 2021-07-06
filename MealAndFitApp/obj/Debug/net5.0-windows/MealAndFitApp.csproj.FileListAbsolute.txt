@@ -144,3 +144,15 @@ C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windo
 C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\ref\MealAndFitApp.dll
 C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MealAndFitApp.pdb
 C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MealAndFitApp.genruntimeconfig.cache
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\Resources\MealItem.baml
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\Resources\MealTemplate.baml
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\CalendarView.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\DayPlanView.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\ExerciseView.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealObject.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealView.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\CalendarView.baml
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\DayPlanView.baml
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\ExerciseView.baml
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealObject.baml
+C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealView.baml

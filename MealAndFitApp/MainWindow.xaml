@@ -10,6 +10,13 @@
         Background="Transparent"
        
         Height="900" Width="1400">
+    <Window.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="MVVM/Resources/MealItem.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
     <Border Background="#272537"
              CornerRadius="20">
         <Grid>
@@ -88,7 +95,9 @@
             
             <ContentControl Grid.Row="1"
                             Grid.Column="1"
-                            Margin="10" />
+                            Margin="10" 
+                            ContentTemplate="{StaticResource MealTemplate}" Content=""
+                            />
         </Grid>
     </Border>
 </Window>
