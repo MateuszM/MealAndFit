@@ -26,6 +26,9 @@
             <Trigger Property="IsChecked" Value="True">
                 <Setter Property="Background" Value="#22202f"/>
             </Trigger>
+            <Trigger Property="IsFocused" Value="False">
+                <Setter Property="Background" Value="#272537"/>
+            </Trigger>
         </Style.Triggers>
     </Style>
 </ResourceDictionary>

@@ -9,13 +9,12 @@
     <UserControl.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
-                <ResourceDictionary Source="C:/Users/Bezimienny/source/repos/MealAndFitApp/MealAndFitApp/MVVM/Resources/MealItem.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/MVVM/Resources/MealItem.xaml"></ResourceDictionary>
             </ResourceDictionary.MergedDictionaries>
             
         </ResourceDictionary>
     </UserControl.Resources>
-    <Grid>
-        <ContentControl DataContext="{StaticResource MealTemplate }"></ContentControl>
+    <Grid Background="AliceBlue">
+        <ContentControl DataContext="{StaticResource MealItem}"></ContentControl>
     </Grid>
-    
 </UserControl>

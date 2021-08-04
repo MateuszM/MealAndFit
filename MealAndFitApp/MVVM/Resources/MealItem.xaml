@@ -1,11 +1,13 @@
 ﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
-    <DataTemplate x:Key="MealTemplate">
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+                    xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes">
+    <DataTemplate x:Key="MealItem">
         <Border>
         <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="300"/>
                     <RowDefinition Height="50"/>
+                    <RowDefinition Height="50" />
                     <RowDefinition Height="50" />
                 </Grid.RowDefinitions>
                 <Grid.ColumnDefinitions>
@@ -13,13 +15,7 @@
                     <ColumnDefinition Width="400" />
                 </Grid.ColumnDefinitions>
                 <Image Name="imgDynamicMeal" Grid.Column="0" Grid.Row="0" Stretch="Uniform"/>
-                <TextBlock Grid.Row="1" Grid.Column="1" Text="Number of KCal"/>
-            <TextBlock Grid.Row="2" Grid.Column="0" Text="Mass of item"/>
-                <TextBlock Grid.Row="2" Grid.Column="1" Text="DaylyNeeds"/>
-                <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding Path=Kcal}"/>
-                <TextBlock Grid.Row="2" Grid.Column="0" Text="{Binding Path=Mass}"/>
-                <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding Path=DailyNeeds}"/>
-                <ListView Grid.Row="0" Grid.Column="1" Margin="10" Name="lvUsers">
+                <ListView Grid.Row="0" Grid.Column="1" Name="Ingredients">
                     <ListView.Resources>
                         <Style TargetType="{x:Type GridViewColumnHeader}">
                             <Setter Property="HorizontalContentAlignment" Value="Left" />
@@ -27,13 +23,30 @@
                     </ListView.Resources>
                     <ListView.View>
                         <GridView>
-                            <GridViewColumn Header="Name" Width="120" DisplayMemberBinding="{Binding Name}" />
-                            <GridViewColumn Header="ValueNeed" Width="50" DisplayMemberBinding="{Binding ValueNeed}" />
+                            <GridViewColumn Header="Name" Width="80" DisplayMemberBinding="{Binding Name}" />
+                            <GridViewColumn Header="ValueNeed" Width="150" DisplayMemberBinding="{Binding ValueNeed}" />
                             <GridViewColumn Header="DailyNeed" Width="150" DisplayMemberBinding="{Binding DailyNeed}" />
                         </GridView>
                     </ListView.View>
                 </ListView>
-            
+                <materialDesign:Card Grid.Row="1" Grid.Column="0">
+                    <TextBlock Foreground="Black" Text="Total Number of KCal"/>
+                </materialDesign:Card>
+                <materialDesign:Card  Grid.Row="2" Grid.Column="0">
+                    <TextBlock Foreground="Black" Text="Total meal mass"/>
+                </materialDesign:Card>
+                <materialDesign:Card Grid.Row="3" Grid.Column="0">
+                    <TextBlock Foreground="Black"  Text="Daily Needs"/>
+                </materialDesign:Card>
+                <materialDesign:Card Grid.Row="1" Grid.Column="1">
+                    <TextBlock  Text="Calories to bind"/>
+                </materialDesign:Card>
+                <materialDesign:Card Grid.Row="2" Grid.Column="1">
+                    <TextBlock  Text="Dayly needs to BInd"/>
+                </materialDesign:Card>
+                <materialDesign:Card Grid.Row="3" Grid.Column="1">
+                    <TextBlock  Text="Mass to bind"/>
+                </materialDesign:Card>
             </Grid>
         </Border>
     </DataTemplate>

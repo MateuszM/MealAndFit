@@ -4,17 +4,33 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MealAndFitApp"
+        xmlns:ViewModels="clr-namespace:MealAndFitApp.MVVM.ViewModels"
+        xmlns:Views="clr-namespace:MealAndFitApp.MVVM.View"
         mc:Ignorable="d"
        
         ResizeMode="CanMinimize"
         Background="Transparent"
        
-        Height="900" Width="1400">
+        Height="600" Width="1000">
     <Window.Resources>
         <ResourceDictionary>
             <ResourceDictionary.MergedDictionaries>
                 <ResourceDictionary Source="MVVM/Resources/MealItem.xaml"/>
+                <ResourceDictionary Source="MVVM/Resources/MealTemplate.xaml"/>
             </ResourceDictionary.MergedDictionaries>
+            <DataTemplate DataType="{x:Type ViewModels:HomeViewModel}">
+                <Views:HomeView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type ViewModels:CalendarViewModel}">
+                <Views:CalendarView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type ViewModels:DayPlanViewModel}">
+                <Views:DayPlanView />
+            </DataTemplate>
+            <DataTemplate DataType="{x:Type ViewModels:ExerciseViewModel}">
+                <Views:ExerciseView />
+            </DataTemplate>
+
         </ResourceDictionary>
     </Window.Resources>
     <Border Background="#272537"
@@ -35,53 +51,24 @@
                    HorizontalAlignment="Center"
                    Foreground="White"
                    FontSize="22"/>
-            
-            <StackPanel Grid.Row="1">
-                <RadioButton Content="Home"
+
+            <StackPanel Grid.Row="1" Grid.Column="0">
+                <Border DockPanel.Dock="Left" BorderBrush="Black" BorderThickness="0,0,1,0">
+                    <ItemsControl ItemsSource="{Binding PageViewModels}">
+                        <ItemsControl.ItemTemplate>
+                            <DataTemplate>
+                                <RadioButton Content="{Binding Name}"
                              Height="50"
                              Foreground="White"
+                             Command="{Binding DataContext.ChangePageCommand, RelativeSource={RelativeSource AncestorType={x:Type Window}}}"
+                             CommandParameter="{Binding }"
                              FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Meal Library"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Exercise Library"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="DayPlan"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Calendar"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Add Meal"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Add Item"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                    <RadioButton Content="Add Ingredient"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
-                <RadioButton Content="Add Exercise"
-                             Height="50"
-                             Foreground="White"
-                             FontSize="20"
-                             Style="{StaticResource MenuButtonTheme}"/>
+                             Style="{DynamicResource MenuButtonTheme}"/>
+                            </DataTemplate>
+                        </ItemsControl.ItemTemplate>
+                    </ItemsControl>
+                </Border>
+                <ContentControl Content="{Binding CurrentPageViewModel}" />
             </StackPanel>
 
             <TextBox Width="250"
@@ -92,12 +79,8 @@
                      Margin="5"
                      Style="{StaticResource ModernTextBox}">
             </TextBox>
-            
-            <ContentControl Grid.Row="1"
-                            Grid.Column="1"
-                            Margin="10" 
-                            ContentTemplate="{StaticResource MealTemplate}" Content=""
-                            />
+  
+
         </Grid>
     </Border>
 </Window>

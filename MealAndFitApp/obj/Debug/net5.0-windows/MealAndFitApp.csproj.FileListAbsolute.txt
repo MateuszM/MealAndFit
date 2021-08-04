@@ -156,3 +156,12 @@ C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-wi
 C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\ExerciseView.baml
 C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealObject.baml
 C:\Users\Bezimienny\source\repos\MealAndFitApp\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealView.baml
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\Resources\MealItem.baml
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\Resources\MealTemplate.baml
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealObject.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealObject.baml
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\bin\Debug\net5.0-windows\MaterialDesignColors.dll
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\bin\Debug\net5.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealItem.g.cs
+C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\MVVM\View\MealItem.baml

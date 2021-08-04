@@ -19,7 +19,6 @@ C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\bin\Debug\net5.0\Infr
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\bin\Debug\net5.0\Infrastructure.dll
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\bin\Debug\net5.0\ref\Infrastructure.dll
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\bin\Debug\net5.0\Infrastructure.pdb
-C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfoInputs.cache
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infrastructure.AssemblyInfo.cs
