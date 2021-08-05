@@ -21,6 +21,11 @@ namespace MealAndFitApp.MVVM.ViewModels
             viewModels.Add(new CalendarViewModel());
             viewModels.Add(new DayPlanViewModel());
             viewModels.Add(new ExerciseViewModel());
+            viewModels.Add(new MealItemViewModel());
+            viewModels.Add(new AddExerciseViewModel());
+            viewModels.Add(new AddMealViewModel());
+            viewModels.Add(new AddMealItemViewModel());
+            viewModels.Add(new AddIngredientViewModel());
             currentViewModel = viewModels[0];
         }
         public ICommand ChangePageCommand

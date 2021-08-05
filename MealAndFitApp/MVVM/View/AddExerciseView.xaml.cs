@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace MealAndFitApp.MVVM.View
 {
     /// <summary>
-    /// Interaction logic for MealObject.xaml
+    /// Interaction logic for AddExerciseView.xaml
     /// </summary>
-    public partial class MealObject : UserControl
+    public partial class AddExerciseView : UserControl
     {
-        public MealObject()
+        public AddExerciseView()
         {
             InitializeComponent();
         }

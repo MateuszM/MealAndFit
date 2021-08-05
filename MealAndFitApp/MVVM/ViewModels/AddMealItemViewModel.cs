@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace MealAndFitApp.MVVM.ViewModels
 {
-    public class MealViewModel : IPageViewModel
+    public class AddMealItemViewModel : IPageViewModel
     {
-        public string Name { get => "Meals"; set => throw new NotImplementedException(); }
+        public string Name { get => "Add Meal Item"; set => throw new NotImplementedException(); }
     }
 }

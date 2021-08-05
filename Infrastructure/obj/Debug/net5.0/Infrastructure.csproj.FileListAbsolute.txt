@@ -27,3 +27,4 @@ C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infr
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\ref\Infrastructure.dll
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infrastructure.pdb
 C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infrastructure.genruntimeconfig.cache
+C:\Users\Bezimienny\source\repos\MealAndFit\Infrastructure\obj\Debug\net5.0\Infrastructure.csproj.AssemblyReference.cache

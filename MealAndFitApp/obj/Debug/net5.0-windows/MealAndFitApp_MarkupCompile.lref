@@ -1,11 +1,14 @@
-﻿
+﻿C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\obj\Debug\net5.0-windows\GeneratedInternalTypeHelper.g.cs
 
 FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MainWindow.xaml;;
+FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\AddExerciseView.xaml;;
+FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\AddIngredientView.xaml;;
+FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\AddMealItemView.xaml;;
+FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\AddMealView.xaml;;
 FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\CalendarView.xaml;;
 FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\DayPlanView.xaml;;
 FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\ExerciseView.xaml;;
 FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\HomeView.xaml;;
-FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\MealObject.xaml;;
+FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\MealItemView.xaml;;
 FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\MealView.xaml;;
-FC:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\MVVM\View\MealItem.xaml;;
 
