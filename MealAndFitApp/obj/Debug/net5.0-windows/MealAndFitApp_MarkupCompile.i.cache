@@ -12,9 +12,9 @@ TRACE;DEBUG;NET;NET5_0;NETCOREAPP
 C:\Users\Bezimienny\source\repos\MealAndFit\MealAndFitApp\App.xaml
 15-554176284
 
-29-646663721
+302107649896
 2181075863446
 MainWindow.xaml;MVVM\Resources\MealItem.xaml;MVVM\Resources\MealTemplate.xaml;MVVM\View\AddExerciseView.xaml;MVVM\View\AddIngredientView.xaml;MVVM\View\AddMealItemView.xaml;MVVM\View\AddMealView.xaml;MVVM\View\CalendarView.xaml;MVVM\View\DayPlanView.xaml;MVVM\View\ExerciseView.xaml;MVVM\View\HomeView.xaml;MVVM\View\MealItemView.xaml;MVVM\View\MealView.xaml;Themes\RadioButtonTheme.xaml;Themes\TextboxTheme.xaml;
 
-True
+False
 
